@@ -1,0 +1,74 @@
+.d-block{
+    border-radius: 50%;
+}
+.hero{
+    background-color: #96B6C5;
+    border: 2rem;
+    height: 500px;
+    padding-top: 4rem;
+}
+@media only screen and (max-device-width: 480px) {
+    .hero{
+    height: 600px;
+    padding-top: auto;
+    }
+    .ed-details{
+        margin-top: 7rem!important;
+    }
+}
+@media only screen and (max-width: 380px) {
+    .hero {
+        /* Adjust the styles to maintain a minimum width of 380px */
+        width: 380px; /* Set a minimum width */
+        height: auto; /* Adjust height as needed */
+        padding-top: 2rem; /* Adjust padding as needed */
+    }
+}
+.lead{
+    font-family: Arial;
+}
+.nav{
+    background-color: #F1F0E8;
+}
+.skills{
+    padding: 2rem;
+    background-color:#F1F0E8;
+}
+.card{
+    height: 335px;
+}
+.card-text{
+    font-family: Arial;
+}
+#t{
+    text-align: center;
+}
+.footer{
+    background-color: #96B6C5;
+}
+.footer-elements{
+    background-color: #96B6C5;
+}
+.navbar1{
+    background-color: #F1F0E8;
+}
+.ed-details{
+    height: 620px;
+    background-color: #C4D3D7;
+    margin-top: 4.5rem;
+    padding: 30px;
+    border: 10px;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.cert{
+    margin-top: 4.5rem;
+    background-color: #C4D3D7;
+    height: 600px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;  
+}

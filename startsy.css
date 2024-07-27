@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100vh;
+}
+.item1{
+    background-color: #183D3D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 75px;
+}
+.item2{
+    background-color: #040D12;
+}
